@@ -1,0 +1,84 @@
+.shoppingCard{
+    background-color: rgba(133, 133, 207, 0.39);
+    width: 12%;
+    height: 85%;
+    border-radius: 15px;
+    margin-left: -18%;
+    transition: margin-left 0.5s ease-in-out;
+    margin-top: 4rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    overflow: auto;
+}
+
+.shoppingCard.open{
+    margin-left: 1%;
+    margin-top: 4rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    overflow: auto;
+}
+
+.productShoppingCard{
+    background-color: rgb(250, 248, 245);
+    border-radius: 10px;
+    width: 60%;
+    height: 100px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    animation: shopCardAnimation 0.3s ease-in;
+}
+
+
+@keyframes shopCardAnimation {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+.productShoppingCard img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.inspectbutton button {
+    width: 80%;
+}
+
+.header{
+    text-align: center;
+    color:bisque ;
+    border-bottom: 2px solid;
+}
+
+.totalPrice{
+    position: fixed;
+    bottom: 50px;
+    background-color: #cbcbd7;
+    width: 8%;
+    height: 50px;
+    box-shadow: 0px 4px 16px 5px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

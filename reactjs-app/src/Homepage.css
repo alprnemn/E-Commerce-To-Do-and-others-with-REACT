@@ -1,0 +1,29 @@
+.homeContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.descriptionHomePage{
+    color: white;
+    text-align: center;
+    width: 70%;
+    padding: 51px;
+    background-color: #43437f47;
+}
+
+.switchLangButton button{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #e9671bd1;
+    cursor: pointer;
+}
+
+.switchLangButton button:hover{
+    box-shadow: 1px 1px 10px 10px #e9671bd1;
+}
+

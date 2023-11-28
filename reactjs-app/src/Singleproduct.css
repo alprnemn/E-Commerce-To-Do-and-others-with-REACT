@@ -1,0 +1,23 @@
+.singleProduct{
+    display: flex;
+    padding: 150px;
+    align-items: center;
+}
+
+.singleProduct img{
+    width: 40%;
+    height: 350px;
+}
+
+.singleProductDescription{
+    width: 100%;
+    padding: 50px;
+    color: white;
+    background-color: #0000006b;
+    border-radius: 0px 17px 67px 0px;
+}
+
+.singleProductDescription p {
+    margin: 10px;
+    font-size: larger;
+}

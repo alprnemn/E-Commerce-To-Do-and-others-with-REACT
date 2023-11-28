@@ -1,0 +1,14 @@
+body.darkTheme{
+    background-color: rgb(1, 1, 26);
+    color: rgb(58, 50, 50);
+}
+
+.priceDiv{
+    position: absolute;
+    background-color: #53bae3fa;
+    border-radius: 23px 7px 6px 5px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    z-index: 1;
+}

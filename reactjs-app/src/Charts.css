@@ -1,0 +1,89 @@
+.charts-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.econ-charts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inf-chart{
+    display: flex;
+    width: 95%;
+    height: 300px;
+    color: white;
+    padding: 30px;
+    margin: 35px;
+    background-color: #00ff3726;
+    border-radius: 30px;
+}
+
+.graphInf{
+    width: 50%;
+    height: 250px;
+    display: flex;
+}
+
+.descriptionInf{
+    width: 50%;
+}
+
+.btc-chart{
+    display: flex;
+    width: 95%;
+    height: 300px;
+    color: white;
+    padding: 30px;
+    margin: 35px;
+    background-color: #29219c6e;
+    border-radius: 30px;
+}
+.descriptionBTC{
+    width: 50%;
+}
+
+.bar-chart{
+    display: flex;
+    width: 95%;
+    height: 300px;
+    color: white;
+    padding: 30px;
+    margin: 35px;
+    background: rgb(148,80,110);
+    background: linear-gradient(90deg, rgba(148,80,110,1) 0%, rgba(94,64,104,1) 31%, rgba(67,97,133,1) 99%);
+    border-radius: 30px;
+}
+
+.descriptionBar{
+    width: 50%;
+}
+
+
+
+
+.linechart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(133,128,224);
+    background: linear-gradient(90deg, rgba(133,128,224,1) 0%, rgba(142,142,212,1) 59%, rgba(14,79,208,1) 100%);
+    margin: 50px;
+}
+
+
+
+.area-chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(235,218,225);
+    background: radial-gradient(circle, rgba(235,218,225,1) 0%, rgba(194,188,90,1) 100%);
+    padding:10px;
+    margin: 50px;
+}

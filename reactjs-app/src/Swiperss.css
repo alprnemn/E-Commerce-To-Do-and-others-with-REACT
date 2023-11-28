@@ -1,0 +1,60 @@
+.swiper {
+  width: 85%;
+  height: 400px;
+  margin-top: 30px;
+  padding: 0;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerSlide{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: inherit;
+}
+
+
+.swiper-slide{
+  background-image: url("https://ozelbebek.files.wordpress.com/2016/11/manzara-1.jpg?w=1200");
+  background-size: cover;
+  color: white;
+}
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  
+}

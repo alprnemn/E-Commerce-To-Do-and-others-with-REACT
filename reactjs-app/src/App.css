@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    transition: 0.5s;
+    background-color: rgb(24, 24, 75);
+}
+
+body p,h1,h2,div,span {
+    color: inherit;
+}
+
+.searchButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bodyContainerApp{
+    display: flex;
+    flex-direction: column;
+}
+
+#searchButton{
+    width: 30%;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #dddce5;
+    font-size: medium;
+    color: black;
+    text-align: center;
+}
+
+.loader{
+    display: none;
+}
+
+.loader.active{
+    display: block;
+    text-align: center;
+    background-color: orange ;
+}
+
+.imagecont{
+    display: flex;
+    margin-top: 40px;
+}
+
+.image-container{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image-container img{
+    width: 300px;
+    height: 400px;
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    
+}
+
+.flex-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.flex-item{
+    width: 17%;
+    height: 275px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    overflow: hidden;
+    font-size: smaller;
+    padding: 5px;
+    margin-top: 30px;
+    
+}
+.flex-body{
+    max-width: 300px; /* veya istediğiniz diğer bir değer */
+    max-height: 300px; /* veya istediğiniz diğer bir değer */
+    overflow: hidden;
+  
+}
+
+.flex-body img{
+    width: 100%; /* Resmi container genişliğine uygun şekilde genişlet */
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+.price{
+    background-color: #24991ce0;
+    border-radius: 5px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.price:hover{
+    background-color: rgb(211, 117, 50);
+    transition: 0.5s ;
+}
+
+
+
+
+.articles {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    width: 80%;
+    padding: 10px;
+}
+ 
+.articles article {
+    width: 20%;
+    height: 20%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.articles article a {
+    display: flex;
+    color: var(--primary);
+    text-decoration: none;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.articles article h2 {
+    margin: 0 0 18px 0;
+    font-size: 1rem;
+    color: var(--secondary);
+    transition: color 0.3s ease-out;
+}
+  
+  
+.articles article img {
+    max-width: 100%;
+    max-height: 100%;
+    transform-origin: center;
+    transition: transform 0.4s ease-in-out;
+}
+  
+.article-preview {
+    padding: 24px;
+    background: white;
+}
+
+.articles figure {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.articles figure img {
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    object-fit: fill;
+    width: 100%;
+}
+
+.articles article:hover img {
+    transform: scale(1.5); 
+}
+
+.articles article .article-preview {
+    padding: 24px;
+    background: rgb(143,151,221);
+    background: linear-gradient(0deg, rgba(143,151,221,1) 0%, rgba(224,224,237,1) 100%);
+    height: 150px;
+}
+
+.inspectbutton{
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    margin-top: 20%;
+}
+
+.inspectbutton button{
+    width: 50%;
+    height: auto;
+    color: white;
+    background: rgb(28,24,24);
+    background: linear-gradient(90deg, rgba(28,24,24,1) 100%, rgba(14,14,34,1) 100%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inspectbutton button:hover{
+    background: rgb(98,179,181);
+    background: linear-gradient(0deg, rgba(98,179,181,1) 0%, rgba(76,70,57,1) 100%);
+    transition: 0.5s ease;
+}
